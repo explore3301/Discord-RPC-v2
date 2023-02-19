@@ -1,10 +1,11 @@
 {
   "name": "hosting",
   "version": "1.0.0",
+  "author":"PAiNFUEGO",
   "description": "single/mass hosting",
   "main": "indx.js",
   "scripts": {
-    "start":"node ."
+    "start":"node .",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
