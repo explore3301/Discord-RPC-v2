@@ -1,4 +1,8 @@
-Put your token in xxx.js
-run the repl
-put to uptime using uptimerobot or join 
-https://discord.gg/34BPBupTDP for uptime / help
+Fill up `data.js`
+
+Make desired changes is `rpcx.js`
+
+Run the code/repl with `npm run start`
+
+Put to uptime using uptimerobot or join 
+https://discord.gg/34BPBupTDP for uptime or help
