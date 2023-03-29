@@ -15,6 +15,15 @@ data.forEach(async(value) => {
     console.log("✅ : " + value + " : " + client.user.username)
   })
 
-  setInterval(()=>{if(!client.isReady())process.kill(1)},15000)
+  setInterval(()=>{
+    if(!client.isReady())process.kill(1)
+    await client.checkUpdate();
+    client.on('update', async () => {
+    const { exec } = require('child_process');
+    await exec('npm i discord.js-selfbot-v13@latest')
+    await process.kill(1)
+    })
+  },15000)
+  
   
 })
