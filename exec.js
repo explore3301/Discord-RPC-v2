@@ -15,6 +15,6 @@ data.forEach(async(value) => {
     console.log("✅ : " + value + " : " + client.user.username)
   })
 
-  setInterval(()=>{if(!client || !client.user)process.kill(1)},15000)
+  setInterval(()=>{if(!client.isReady())process.kill(1)},15000)
   
 })
