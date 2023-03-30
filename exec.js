@@ -1,12 +1,10 @@
 const { rpcx } = require("./rpcx.js")
-const { data } = require("./data.js")
 const Discord = require("discord.js-selfbot-v13")
 
 
-data.forEach(async(value) => {
-  let client = new Discord.Client({ checkUpdate: false })
+  let client = new Discord.Client({ checkUpdate: true })
 
-  client.login(value).catch((err) => {
+  client.login(process.env.TOKEN).catch((err) => {
     console.log("❌ : " + value + " : " + err.code)
   })
 
@@ -24,6 +22,3 @@ data.forEach(async(value) => {
     await process.kill(1)
     })
   },15000)
-  
-  
-})
