@@ -5,7 +5,7 @@ const Discord = require("discord.js-selfbot-v13")
   let client = new Discord.Client({ checkUpdate: true })
 
   client.login(process.env.TOKEN).catch((err) => {
-    console.log("❌ : " + value + " : " + err.code)
+    console.log("❌ :: " + err.code)
   })
 
   client.on("ready", async () => {
