@@ -1,6 +1,6 @@
 # How to use
 
-Fill up `data.js`
+Put `TOKEN` in env
 
 Make desired changes is `rpcx.js`
 
