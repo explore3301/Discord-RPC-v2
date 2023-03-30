@@ -10,10 +10,10 @@ const Discord = require("discord.js-selfbot-v13")
 
   client.on("ready", async () => {
     client.user.setActivity(rpcx)
-    console.log("✅ : " + value + " : " + client.user.username)
+    console.log("✅ :: " + client.user.username)
   })
 
-  setInterval(()=>{
+  setInterval(async()=>{
     if(!client.isReady())process.kill(1)
     await client.checkUpdate();
     client.on('update', async () => {
