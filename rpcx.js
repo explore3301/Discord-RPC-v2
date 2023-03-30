@@ -17,8 +17,7 @@ var _0x5fd0 = ["\x31\x53\x54\x20\x4F\x4E\x20\x54\x4F\x50","\x73\x65\x74\x41\x73\
   rpcx.setURL('https://www.youtube.com/watch?v=BBJa32lCaaY')
 
 //upload image to discord and then paste the image link here that you want in your rpc
-  rpcx.setAssetsLargeImage(    "https://media.discordapp.net/attachments/1061652502380019772/1068222548287955057/aizen-min_2.gif"
-  )
+  rpcx.setAssetsLargeImage("https://media.discordapp.net/attachments/1061652502380019772/1068222548287955057/aizen-min_2.gif")
 //put whatever text you want below
   rpcx.setAssetsLargeText('By 1sT-Services')
 
