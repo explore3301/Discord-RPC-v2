@@ -1,3 +1,4 @@
+require('dotenv').config()
 const { rpcx } = require("./rpcx.js")
 const Discord = require("discord.js-selfbot-v13")
 
