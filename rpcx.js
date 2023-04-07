@@ -8,11 +8,11 @@ var _0x5fd0 = ["\x31\x53\x54\x20\x4F\x4E\x20\x54\x4F\x50","\x73\x65\x74\x41\x73\
 
 
 //keep the 2 names same
-  rpcx.setName('ᴛᴏxɪᴄɪᴛʏ.ᴇxᴇ')
-  rpcx.setDetails('ᴛᴏxɪᴄɪᴛʏ.ᴇxᴇ')
+  rpcx.setName('⭕━● 1sT-Services')
+  rpcx.setDetails('⭕━● 1sT-Services')
 
 //put whatever text you want below
-  rpcx.setState('1sT RUNS THE CORD')
+  rpcx.setState('1sT Runz Cord')
 //put youtube link here - watch button link 
   rpcx.setURL('https://www.youtube.com/watch?v=BBJa32lCaaY')
 
