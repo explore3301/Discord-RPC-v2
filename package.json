@@ -2,7 +2,7 @@
   "name": "rpcx",
   "version": "1.0.0",
   "author":"PAiNFUEGO",
-  "description": "single/mass hosting",
+  "description": "rich presence",
   "main": "indx.js",
   "scripts": {
     "start":"node .",
